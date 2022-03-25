@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
     --grey: #efefef;
   }
   html {
-        background-size: 450px;
+    background-size: 450px;
     background-attachment: fixed;
     font-size: 10px;
     margin:0 auto;
