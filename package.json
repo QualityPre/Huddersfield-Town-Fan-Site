@@ -15,10 +15,12 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "daisyui": "^2.13.2",
     "gatsby": "^4.10.3",
     "normalize.css": "^8.0.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
