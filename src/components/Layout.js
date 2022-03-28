@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 
 export default function Layout({ children }) {
     return (
-        <div>
+        <div data-theme="cmyk">
             <Navbar />
             {children}
             <Footer />

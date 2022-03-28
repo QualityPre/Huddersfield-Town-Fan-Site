@@ -6,7 +6,7 @@ import { Link } from 'gatsby';
 
 const Navbar = () => (
     <nav className="navbar mb-12 shadow-lg text-netural-content  ">
-        <div className="md:container mx-auto flex justify-around">
+        <div className="md:container md:mx-auto  flex justify-around">
             <div className="px-2 mx-2">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -17,14 +17,17 @@ const Navbar = () => (
                         className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                     >
                         <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
                             <Link to="/about">About</Link>
                         </li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">Home</a>
+                <a className="hidden lg:block btn btn-ghost normal-case text-xl ">Home</a>
             </div>
 
-            <p> HTAFC Players</p>
+            <p> Hudderfield Town StatsBase</p>
             <div className="hidden lg:block pr-40 ">
                 <ul className="menu menu-horizontal p-0">
                     <li>
