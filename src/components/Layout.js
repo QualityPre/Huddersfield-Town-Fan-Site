@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 
 export default function Layout({ children }) {
     return (
-        <div data-theme="retro">
+        <div>
             <Navbar />
             {children}
             <Footer />
